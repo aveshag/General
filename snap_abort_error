@@ -1,0 +1,13 @@
+Unable to install “<PACKAGE>”: snap “<PACKAGE>” has “install-snap” change in progress
+
+Snap is probably still working on something in the background (or at least it thinks so). Open a terminal and run snap changes so see a list of ongoing changes.
+
+$ snap changes
+...
+123  Doing   2018-04-28T10:40:11Z  -  Install "foo" snap
+...
+
+You can abort ongoing change(s):
+
+sudo snap abort 123
+

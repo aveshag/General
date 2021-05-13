@@ -1,0 +1,85 @@
+tweak
+sublime
+android studio
+Okular
+Terminator
+
+mozilla extension: saveforum, adblock ultimate, grammerly, Hoxx
+
+
+conda jupyter notebook
+
+Gnome dash to panel extension
+
+sudo apt install ibus-m17n
+Hindi(optitransv2)
+
+
+******************************************************************************
+Video: How To Install Oracle Java 14 (JDK 14) On Ubuntu 20.04 LTS, Debian Linux
+Channel: ProgrammingKnowledge
+
+$ sudo dpkg -i jdk-14_linux-x64_bin.deb
+
+$ sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-14.0.1/bin/java 1
+
+$ sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-14.0.1/bin/javac 1
+
+$ java --version
+java 14 2020-03-17
+Java(TM) SE Runtime Environment (build 14+36-1461)
+Java HotSpot(TM) 64-Bit Server VM (build 14+36-1461, mixed mode, sharing)
+
+$ javac --version
+javac 14
+
+$ sudo update-alternatives --config java
+There is only one alternative in link group java (providing /usr/bin/java): /usr/lib/jvm/jdk-14.0.1/bin/java
+Nothing to configure.
+
+$ sudo gedit /etc/environment
+
+JAVA_HOME="/usr/lib/jvm/jdk-14.0.1"
+
+(gedit:12232): Tepl-WARNING **: 15:15:56.256: GVfs metadata is not supported. Fallback to TeplMetadataManager. Either GVfs is not correctly installed or GVfs metadata are not supported on this platform. In the latter case, you should configure Tepl with --disable-gvfs-metadata.
+
+
+$ source /etc/environment
+$ echo $JAVA_HOME
+/usr/lib/jvm/jdk-14.0.1
+
+******************************************************************************
+installing R
+
+install R
+install R studio
+
+******************************************************************************
+
+Pycharm
+
+install anaconda
+install pycharm
+add Python interpreter path using conda (run command 'which python' in terminal, will give path) 
+
+******************************************************************************
+for vscode for javascript, watch microsoft tutorial for javascript
+
+******************************************************************************
+
+conda create -n env_name python=3.6
+conda activate env_name
+conda install -c etetoolkit ete3 ete_toolchain
+
+paste "source activate env_name" in .bashrc file
+
+
+******************************************************************************
+https://linuxize.com/post/install-java-on-ubuntu-18-04/
+******************************************************************************
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+sudo gedit /etc/default/grub
+
+And change GRUB_TIMEOUT=10 to GRUB_TIMEOUT=2.

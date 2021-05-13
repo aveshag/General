@@ -1,0 +1,21 @@
+https://itectec.com/ubuntu/ubuntu-bluetooth-not-finding-any-devices-ubuntu-18-04/#:~:text=Try%20this%20command%20dmesg%20%7C%20grep,then%20you%20have%20same%20problem.
+
+Ubuntu – Bluetooth not finding any devices ( Ubuntu 18.04 )
+18.04bluetooth
+
+Bluetooth not finding any devices in Ubuntu 18.04. I tried different solutions that were found on the internet but with no success.
+
+After Bluetooth is enabled, it keeps searching for devices until it is turned off. All the devices that I am trying to connect with are fully functional, they were paired with other OS and working fine.
+
+Best Answer
+In my case the BCM43142A0-0a5c-21d7.hcd was missing. Try this command dmesg | grep -i 'blue' there if you find Bluetooth: hci0: BCM: patch brcm/BCM43142A0-0a5c-216c.hcd not found then you have same problem.
+
+Download the BCM43142A0-0a5c-21d7.hcd file from this github repo.
+
+After that perform
+
+sudo cp BCM43142A0-0a5c-21d7.hcd /lib/firmware/brcm/BCM43142A0-0a5c-21d7.hcd
+
+sudo modprobe -r btusb
+
+sudo modprobe btusb

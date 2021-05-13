@@ -1,0 +1,87 @@
+Array in Bash
+-------------
+arrayname[0]='Ubuntu'
+To access an element from an array use curly brackets like ${name[index]}
+declare -a arrayname=(element1 element2 element3)
+
+if the index number is @ or *, all members of an array are referenced
+eg: echo ${name[@]}
+
+${#arrayname[@]} gives you the length of the array.
+${#arrayname[0]} gives you the number of characters in the first element.
+
+Extraction by offset and length for an array
+	the way to extract 2 elements starting from the position 3 from an array
+	eg: echo ${arrayname[@]:3:2}
+		echo ${arrayname[2]:0:3}
+
+Search and Replace in an array elements
+	eg: echo ${Unix[@]/Ubuntu/SCO Unix}
+	In this example, it replaces the element ‘Ubuntu’ with ‘SCO Unix’. But this example will not permanently replace the array content.
+	echo ${con[@]/[A-Z]/.}: replace first capital letter to . NewZ --> .ewZ
+Add an element to an existing Bash Array
+
+	eg: Unix=("${Unix[@]}" "AIX" "HP-UX")
+
+array=( `cat "filename" `)
+array=($(cat))
+
+concatenation
+-------------
+
+array=("${array[@]}" "${array[@]}" "${array[@]}") 
+
+Arithmetic operation
+--------------------
+	https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/tutorial
+	a = expression
+	read a
+	printf "%.3f" $(echo $a | bc -l)
+	
+head -n no_of_lines
+head -c no_of_chars
+
+tr: translate or delete characters
+sort
+uniq
+cut: remove sections from each line of files
+paste: 
+	paste -sd ';'
+	paste - - - 
+
+grep
+----
+	grep "string" filename
+	grep -i "string" filename --> caseinsensitive
+	grep "REGEX" filename
+	grep -w --> for complete word not substring
+		
+		grep -Eiw 'th(e|ose|en|at)'
+		grep -wi -e "the" -e "that" -e "then" -e "those"
+	
+	grep '\([0-9]\) *\1'
+	Takes a digit ([0-9]), remembers it (\...\), looks for zero or more spaces ( *) followed by a repeat of the stored digit (\1). 
+	
+awk
+----
+munging: manipulation
+Awk is a programming language which allows easy manipulation of structured data and the generation of formatted reports.
+NF: number of fields
+awk '{ sum = $2+$3+$4
+       avg = sum/3
+       if(avg>=80)
+            print $1,$2,$3,$4,": A"
+       else if(avg>=60)
+            print $1,$2,$3,$4,": B" 
+       else if(avg>=50)
+            print $1,$2,$3,$4,": C"
+       else
+            print $1,$2,$3,$4,": FAIL"   
+     }'
+
+sed
+----
+
+
+source FILENAME [arguments]
+source is a shell built-in command which is used to read and execute the content of a file(generally set of commands), passed as an argument in the current shell script.

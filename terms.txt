@@ -1,0 +1,29 @@
+black hat
+white hat
+gray hat
+
+credential stuffing attack: having same password on different site and if one of site has leaked the data then this data can we used to login on other site
+
+signal app: end to end encryption without log
+
+Express VPN
+Tunnelbear
+Nord VPN
+
+google pixel (patched before any other)
+
+communicating securely on computer: keybase. semaphone, wire, wickrpro
+Richochet
+
+
+Google drive, one drive, drropbox : not safe
+firefox send: secure
+Anonymous browsing: Tor Browser(onion Routing)
+
+Update router firmware regularly (modern routers update automatically)
+
+Maximizing the browser allows websites to access device info such as screen size and resolution. 
+
+"Maximizing Tor Browser can allow websites to determine your monitor size, which can be used to track you. We recommend that you leave Tor Browser windows in their original default size."
+
+Ubuntu 6.06 (Dapper Drake), released on 1 June 2006, was Canonical's fourth release, and the first long-term support (LTS) release. Ubuntu 6.06 was released behind schedule, having been intended as 6.04. It is sometimes jokingly described as their first "Late To Ship" (LTS) release.

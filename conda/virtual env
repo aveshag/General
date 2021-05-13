@@ -1,0 +1,22 @@
+conda create --name environmentname
+source activate environmentname
+conda install numpy
+
+conda info --envs
+
+# To activate this environment, use
+#
+#     $ conda activate environmentname
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+If you create a conda environment, activate the environment, and then pip install the distributions package, you'll find that the system installs your package globally rather than in your local conda environment. However, if you create the conda environment and install pip simultaneously (means install pip in this new virtual environment again), you'll find that pip behaves as expected installing packages into your local environment
+
+python3 -m venv environmentname
+source environmentname/bin/activate
+pip install numpy
+
+
+

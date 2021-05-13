@@ -1,0 +1,6 @@
+Headphone jack not working?
+
+I've tried all these responses. Here is the ONLY way that worked for me (and it was remarkably quick... after spending hours on all the other suggestions!). Go into Terminal, and simply key this in:
+
+$ alsactl restore
+
