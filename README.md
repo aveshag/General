@@ -1,2 +1,2 @@
 # General
-Daily use stuff related to programming
+Daily stuff related to programming
