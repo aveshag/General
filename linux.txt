@@ -1,3 +1,78 @@
+
+find/locate
+load average: (sys utilized in last 1 min) (in last 5 min) (in last 15 min)
+
+zombie state: child prcess completes but parent has not asked for child's state yet
+sleep 100
+ctrl Z (suspend/stop a fg job) ctrl C (terminate a fg job)
+bg (put most recent suspended job in bg)
+fg (put most recent suspended job in fg)
+
+ps: current running processes under shell
+kill -9
+w top atop htop uptime
+jobs
+pstree
+
+at
+> at now +2 days
+> cat file.txt
+> ctrl + D
+
+cron
+
+sudo mkdir abc
+sudo mount /dev/sdb1 abc
+sudo unmount abc
+
+mount is used to attach a filesystem somewhere within the file system tree
+
+whoami
+who
+cat /etc/os-release
+uname
+lsb_release -a
+sudo dmidecode | grep -A3 '^System Information'  (dmi: desktop management interface)
+
+hostname
+hostname -i
+
+nslookup whois dig host
+ip route tracerote
+
+
+sed: stream editor (work line by line)
+awk: interpreted programming language (step ahead of SED)
+
+
+why export? to make child process see this variable
+export var=val
+child process are allowed to modify the value of exported variables, the parent will not see any changes;
+exported var are not shared, they are only copied and inherited
+
+
+we can redirect the large o/p to a special file (a device node) called /dev/null (called bitbucket/ blackhole)
+ls -lR /tmp > /dev/null
+
+
+why linux secure?
+linux is considered to be more secure than many other os bcoz processes are naturally isolated from each other. one process can not access the resources of another process, even when that process is running with the same user privileges
+
+echo "avesh" | sha512sum
+
+
+how passwords are stored? 
+/etc/passwd (older system)
+/etc/shadow (modern system)
+
+password aging: promps the reminder to create a new password after a specific date
+
+
+/var/log/auth.log (log unsuccessful attempts of sudo)
+
+source FILENAME [arguments]
+source is a shell built-in command which is used to read and execute the content of a file(generally set of commands), passed as an argument in the current shell script.
+
 Array in Bash
 -------------
 arrayname[0]='Ubuntu'
@@ -79,9 +154,3 @@ awk '{ sum = $2+$3+$4
             print $1,$2,$3,$4,": FAIL"   
      }'
 
-sed
-----
-
-
-source FILENAME [arguments]
-source is a shell built-in command which is used to read and execute the content of a file(generally set of commands), passed as an argument in the current shell script.

@@ -1,0 +1,45 @@
+what is magnetron?
+why microwave radiation used in oven?
+Microwave ovens don't make foods radioactive. They just heat them. Microwave ovens heat food by producing radiation which is absorbed by water molecules in the food. This makes the water molecules vibrate and produce heat, which cooks the food.
+what is the difference in incandescent and fluorescent light?
+While fluorescent (CFL) bulbs generate light by sending an electrical discharge through an ionized gas, incandescent bulbs emit light by heating the filament present in the bulb.
+
+
+Renfrew collingwood: self folding paper
+converter: ac to dc
+inverter: dc to ac
+
+Green : Natural.
+Blue : Natural + Medicine.
+Red : Natural + Chemical composition.
+Black : pure chemical
+
+netsh wlan show profile
+netsh wlan show profile WiFi-name key=clear
+
+Movie Name -inurl:(htm|html|php|pls|txt) intitle:index.of “last modified” (mp4|wma|aac|avi)
+intitle:index.of? mkv movie name
+ctrl + F and type movie name
+
+Story behind Wi-Fi logo:
+The sole purpose of the invention of the Wi-Fi logo was to create a sense of interoperability and which could help further marketing efforts. On the official basis, the Wi-Fi was actually called “IEEE 802.11b” and later its subsequence like IEEE 802.11 a/b/c/g were about to come. So there had to be a brand logo name which was catchy and very easy to remember and use otherwise.
+
+What is Wireless fidelity?
+The term wireless fidelity came into existence because of the apprehension of some of the colleagues that Wi-Fi should actually make sense. So the term ‘Wireless Fidelity’ came into existence. They didn’t understand branding or marketing without having some sort of literal explanation. So, the branding company compromised and they agree to include the tagline “The Standard for Wireless Fidelity”.
+But this was the mistake which started confusing people. Later when Wi-Fi became successful and marketing and business people from larger companies started approaching the company, it was decided that the tagline should be dropped.
+
+Difference between Binary release and source release?
+Binary releases contain computer readable version of the application, meaning it is compiled. Source releases contain human readable version of the application, meaning it has to be compiled before it can be used.
+
+If your PC has a small number of cores, that doesn’t mean it will not work. You can do one work at a time, but slowly. The PC with numerous cores will allow you to do as many works at a time and with great speed. If you have opened various tabs then cores cannot do anything. It means that the speed of your PC can be decreased. The speed effect of cores can be utilized when you are playing modern games.
+The Core i3s have Hyper-Threading feature. Hyper-Threading feature is not available in all Core i5s. Core i5s may have Turbo boost feature loaded. The Core i7 is the most demanded processor. It has 2 to 8 cores with Hyper-Threading, Turbo boosting and overclocking features.
+
+How hard disk works?
+How USB works?
+What is floating gate?
+
+CR = Carriage Return and LF = Line Feed, two expressions have their roots in the old typewriters / TTY. LF moved the paper up (but kept the horizontal position identical) and CR brought back the "carriage" so that the next character typed would be at the leftmost position on the paper (but on the same line). CR+LF was doing both, i.e. preparing to type a new line. 
+They are used to mark a line break in a text file. As you indicated, Windows uses two characters the CR LF sequence; Unix only uses LF and the old MacOS ( pre-OSX MacIntosh) used CR.
+
+GOD MODE
+GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}r
