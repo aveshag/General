@@ -26,11 +26,19 @@
 
 > conda env remove -n env-name
 
+# List existing environment of notebook
+
+> jupyter kernelspec list
+
 # Adding environment in notebook
 
 > pip install ipykernel
 
 > ipython kernel install --user --name=ml
+
+# Remove existing environment from notebook
+
+> jupyter kernelspec uninstall 'environment_name'
 
 # Uninstalling conda
 1. Remove the entire Miniconda install directory with:
