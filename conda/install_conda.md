@@ -6,9 +6,15 @@
 
 # Installing jupyter notebook
 
-> pip install notebook
+> conda install -c conda-forge notebook
+> conda install -c conda-forge nb_conda_kernels
 
 > jupyter-notebook
+
+# Installing jupyter lab
+
+> conda install -c conda-forge jupyterlab
+> conda install -c conda-forge nb_conda_kernels
 
 # Installing extension for notebook
 
@@ -32,7 +38,7 @@
 
 # Adding environment in notebook
 
-> pip install ipykernel
+> conda install ipykernel
 
 > ipython kernel install --user --name=ml
 
